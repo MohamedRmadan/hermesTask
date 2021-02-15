@@ -26,3 +26,5 @@ export default class Header extends Component {
         ) 
     }
 }
+const domContainer = document.querySelector('#like_button_container');
+ReactDOM.render(e(Header), domContainer);
